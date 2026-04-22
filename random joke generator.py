@@ -5,10 +5,10 @@ print ("now loading")
 time.sleep (5)
 print ("Welcome To Random Joke Generator version 1.2.7")
 joke_1 = "Why did the chicken cross the road? To run from the KFC"
-joke_2 = "Have you heard the rummor of the margerin? Never mind I butter not spread it"
-joke_3 = "What did the eraser say to the pencil? You're look'n mighty sharp today"
+joke_2 = "Have you heard the rumor of the margarin? Never mind I butter not spread it"
+joke_3 = "What did the eraser say to the pencil? You're lookin mighty sharp today"
 
-joke_selected = random.randin (1, 3) 
+joke_selected = random.randint (1, 3) 
 
 print (f"Selecting Random Joke Number: {joke_selected}")
 
