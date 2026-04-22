@@ -21,11 +21,11 @@ while keep_playing == "yes" or keep_playing == "Yes":
   if joke_selected == 1:
     print (f"Random Joke Is: {joke_1}")
 
-    elif joke_selected == 2:
-      print (f"Random Joke Is: {joke_2}")
+  elif joke_selected == 2:
+    print (f"Random Joke Is: {joke_2}")
 
-    elif joke_selected == 3:
-      print (f"Random Joke Is: {joke_3}")
+  elif joke_selected == 3:
+    print (f"Random Joke Is: {joke_3}")
    
   valid_input = False 
   while valid_input == False:
@@ -36,8 +36,8 @@ while keep_playing == "yes" or keep_playing == "Yes":
       valid_input = True
       continue
     elif keep_playing == "No" or keep_playing == "no":
-      print ("Goodbye Thank You For Using Random Joke Generator Version 1.3 By JeffyGamez")
-      valid input = True
+      print ("Goodbye Thank You For Using Random Joke Generator Version 1.3.2 By JeffyGamez")
+      valid_input = True
       break
     else:
       print ("ERROR, Invalid Input!")
