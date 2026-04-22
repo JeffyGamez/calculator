@@ -1,13 +1,18 @@
 import time 
+import random
 print ("This repo was made by jeffygamez")
 print ("now loading")
 time.sleep (5)
-print ("Welcome To Random Joke Genorator version 1.2.7")
-joke_1 = "Why did the chiken cross the road? To run from the KFC"
+print ("Welcome To Random Joke Generator version 1.2.7")
+joke_1 = "Why did the chicken cross the road? To run from the KFC"
 joke_2 = "Have you heard the rummor of the margerin? Never mind I butter not spread it"
 joke_3 = "What did the eraser say to the pencil? You're look'n mighty sharp today"
-joke_user_selected = input ("Please Select a joke between 1 and 3.")
-joke_selected = int ( joke_user_selected )
+
+joke_selected = random.randin (1, 3) 
+
+print (f"Selecting Random Joke Number: {joke_selected}")
+
+time.sleep (3)
 
 if joke_selected == 1:
   print (f"Random Joke Is: {joke_1}")
