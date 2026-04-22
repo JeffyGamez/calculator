@@ -1,5 +1,6 @@
 import time 
 import random
+import math
 print ("This repo was made by jeffygamez")
 print ("now loading")
 time.sleep (5)
@@ -20,19 +21,22 @@ while keep_playing == "yes" or keep_playing == "Yes":
   if joke_selected == 1:
     print (f"Random Joke Is: {joke_1}")
 
-  elif joke_selected == 2:
-    print (f"Random Joke Is: {joke_2}")
+    elif joke_selected == 2:
+      print (f"Random Joke Is: {joke_2}")
 
-  elif joke_selected == 3:
-    print (f"Random Joke Is: {joke_3}")
-  
-  keep_playing = input ("Would You Like To Keep Playing Yes/No")
+    elif joke_selected == 3:
+      print (f"Random Joke Is: {joke_3}")
+   
+  if joke_selected == range 1, 3:  
+    
+    keep_playing = input ("Would You Like To Keep Playing Yes/No")
   
   if keep_playing == "Yes" or keep_playing == "yes":
-      print ("Thanks For using Random Joke Generator")
+      continue
   elif keep_playing == "No" or keep_playing == "no":
       print ("Goodbye Thank You For Using Random Joke Generator Version 1.3 By JeffyGamez")
-
+      break
+  
 
 
 
